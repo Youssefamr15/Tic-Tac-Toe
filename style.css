@@ -60,14 +60,6 @@ p {
   aspect-ratio: 1/1;
 }
 
-/* .tile[data-value="X"]::before {
-  content: "X";
-}
-
-.tile[data-value="O"]::before {
-  content: "O";
-} */
-
 .tile:focus{
   border-color: hsl(var(--hue) 60% 50%);
   outline: 3px solid hsl(var(--hue) 60% 50%);
